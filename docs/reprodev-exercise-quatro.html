@@ -125,9 +125,12 @@ div.csl-indent {
 
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-</section>
-<section id="running-code" class="level2">
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/n4A7ssN2xy0" width="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div><div class="column" style="width:50%;">
+<p><img src="../data/funnypicture.jpeg" class="img-fluid"></p>
+</div><p>Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p><section id="running-code" class="level2">
 <h2 class="anchored" data-anchor-id="running-code">Running Code</h2>
 <p>When you click the <strong>Render</strong> button a document will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
 <div class="cell">
@@ -143,12 +146,10 @@ div.csl-indent {
 </div>
 </div>
 <p>The <code>echo: false</code> option disables the printing of code (only output is displayed).</p>
-</section>
-<section id="meet-quarto" class="level1">
+</section><section id="meet-quarto" class="level1">
 <h1>Meet Quarto</h1>
 <p><code>Quarto</code> enables you to weave together content and executable code into a finished document. To learn more about Quarto see <a href="https://quarto.org" class="uri">https://quarto.org</a>.</p>
-</section>
-<section id="meet-the-boys-data" class="level1">
+</section><section id="meet-the-boys-data" class="level1">
 <h1>Meet the boys data</h1>
 <p>The boys data from the <code>mice</code> package in <code>R</code> is a random sample of 10% from the cross-sectional data used to construct the Dutch growth references 1997. Variables <code>gen</code> and <code>phb</code> are ordered factors. <code>reg</code> is a factor.</p>
 <p>The following table shows the first 6 rows of the <code>boys</code> data.</p>
@@ -175,8 +176,7 @@ div.csl-indent {
 </div>
 </div>
 </div>
-</section>
-<section id="source-coding" class="level1">
+</section><section id="source-coding" class="level1">
 <h1>1. Source coding</h1>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Read data</span></span>
@@ -194,8 +194,7 @@ div.csl-indent {
 6 0.068 55.5 4.655 15.11 37.0 &lt;NA&gt; &lt;NA&gt; NA south</code></pre>
 </div>
 </div>
-</section>
-<section id="references" class="level1">
+</section><section id="references" class="level1">
 <h1>2. References</h1>
 <p>Not every value in the <code>mice::boys</code> set is observed. This may pose problems with the analysis of the <code>boys</code> data. To get an idea about the problem, we can use missing data patterns. <span class="citation" data-cites="oberman2024toward">(<a href="#ref-oberman2024toward" role="doc-biblioref">Oberman and Vink 2024</a>)</span> created the <a href="https://github.com/amices/ggmice" class="pkg"><code>ggmice</code></a> package to create a <a href="https://ggplot2.tidyverse.org" class="pkg"><code>ggplot2</code></a> <span class="citation" data-cites="ggplot2">(<a href="#ref-ggplot2" role="doc-biblioref">Wickham 2016</a>)</span> type plot of the missing values in the <code>boys</code> data.</p>
 <div class="cell">
@@ -221,16 +220,15 @@ Attaching package: 'ggmice'</code></pre>
 </div>
 </div>
 </div>
-</section>
-<section id="renv" class="level1">
+</section><section id="renv" class="level1">
 <h1>3. renv</h1>
-</section>
-<section id="in-line-code" class="level1">
+</section><section id="in-line-code" class="level1">
 <h1>4. in-line code</h1>
-</section>
-<section id="descriptions-of-the-boys-data" class="level1">
+</section><section id="descriptions-of-the-boys-data" class="level1">
 <h1>Descriptions of the <code>boys</code> data</h1>
 <p>The <code>boys</code> data contains 748 rows and 9 columns. In total there are 1622 missing values in the <code>boys</code> data, with the highest number of missing values in the tv column.</p>
+</section>
+</div>
 
 </section>
 
