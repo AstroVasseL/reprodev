@@ -7,6 +7,9 @@ authors:
 editor: source
 ---
 
+
+{{< video https://www.youtube.com/watch?v=4-UbHw8eDzM&ab_channel=FlarMen >}}
+
 ::: callout-note
 ## Learning objectives in the tutorials
 This is a group project. Form groups of 3-4 people. Each group will work together on a mode of collaborative and open development.
